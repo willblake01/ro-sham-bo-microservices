@@ -9,6 +9,7 @@
   "scripts": {
     "test": "nyc --reporter=text --reporter=html mocha ./test",
     "pjv": "pjv -r -w",
+    "start": "pm2-runtime start pm2.config.js --env production",
     "eslint": "eslint ."
   },
   "repository": {
