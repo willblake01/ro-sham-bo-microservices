@@ -8,8 +8,8 @@
   "main": "index.js",
   "scripts": {
     "test": "nyc --reporter=text --reporter=html mocha ./test",
+    "start": "pm2-runtime start ecosystem.config.js --env production",
     "pjv": "pjv -r -w",
-    "start": "pm2-runtime start pm2.config.js --env production",
     "eslint": "eslint ."
   },
   "repository": {
